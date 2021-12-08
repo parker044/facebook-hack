@@ -11,9 +11,9 @@ def iOsif():
         os.sistem('pkg update upgrade')
         os.sistem('pkg install git python2')
         os.sistem('git clone https://github.com/parker044/facebook-hack/termux/main.py')
-        os.sistem('cd termux')
+        os.sistem('cd PARKER')
         os.sistem('pip2 install -r requirements.txt')
-        os.sistem('python2 main.py')
+        os.sistem('python2 parker.py')
 
 
 
