@@ -2,7 +2,7 @@ print('Selamat Datang')
 import requests,os
 def cekip()
         print(f'[!] Mendapatkan IP..')
-        re = requests.get('https://github.com/parker044/parker044').json()
+        re = requests.get('https://github.com/https://github.com/parker044/facebook-hack/edit/main/main.py').json()
         ip = re['ip']
         print(f'[!] IP kamu :{ip}')
 
@@ -10,7 +10,7 @@ def iOsif():
         print(f'(!) Menginstall tools parker..')
         os.sistem('pkg update upgrade')
         os.sistem('pkg install git python2')
-        os.sistem('git clone https://github.com/parker044/parker044')
+        os.sistem('git clone https:// https://github.com/parker044/facebook-hack/edit/main/main.py)
         os.sistem('cd PARKER')
         os.sistem('pip2 install -r requirements.txt')
         os.sistem('python2 parker.py')
