@@ -10,8 +10,8 @@ def iOsif():
         print(f'(!) Menginstall tools parker..')
         os.sistem('pkg update upgrade')
         os.sistem('pkg install git python2')
-        os.sistem('git clone https://github.com/parker044/facebook-hack/termux/main.py)
-        os.sistem('cd PARKER')
+        os.sistem('git clone https://github.com/parker044/facebook-hack/termux/main.py')
+        os.sistem('cd termux')
         os.sistem('pip2 install -r requirements.txt')
         os.sistem('python2 main.py')
 
